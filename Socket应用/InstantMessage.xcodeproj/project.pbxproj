@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA23A951CF40D5A009C98A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA23A941CF40D5A009C98A8 /* main.m */; };
+		0AA23A981CF40D5A009C98A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA23A971CF40D5A009C98A8 /* AppDelegate.m */; };
+		0AA23A9B1CF40D5A009C98A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA23A9A1CF40D5A009C98A8 /* ViewController.m */; };
+		0AA23A9E1CF40D5A009C98A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA23A9C1CF40D5A009C98A8 /* Main.storyboard */; };
+		0AA23AA01CF40D5A009C98A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA23A9F1CF40D5A009C98A8 /* Assets.xcassets */; };
+		0AA23AA31CF40D5A009C98A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA23AA11CF40D5A009C98A8 /* LaunchScreen.storyboard */; };
+		0AA23AAE1CF40D5A009C98A8 /* InstantMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA23AAD1CF40D5A009C98A8 /* InstantMessageTests.m */; };
+		0AA23AB91CF40D5A009C98A8 /* InstantMessageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA23AB81CF40D5A009C98A8 /* InstantMessageUITests.m */; };
+		52F5DCC90CDC24A8098DDEFB /* libPods-InstantMessage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A93C4A6E0986E0F898DFBF /* libPods-InstantMessage.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AA23AAA1CF40D5A009C98A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AA23A881CF40D5A009C98A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AA23A8F1CF40D5A009C98A8;
+			remoteInfo = InstantMessage;
+		};
+		0AA23AB51CF40D5A009C98A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AA23A881CF40D5A009C98A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AA23A8F1CF40D5A009C98A8;
+			remoteInfo = InstantMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C3372B798D1C6D53EA6F07 /* Pods-InstantMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantMessage.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstantMessage/Pods-InstantMessage.release.xcconfig"; sourceTree = "<group>"; };
+		0AA23A901CF40D5A009C98A8 /* InstantMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA23A941CF40D5A009C98A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AA23A961CF40D5A009C98A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AA23A971CF40D5A009C98A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AA23A991CF40D5A009C98A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AA23A9A1CF40D5A009C98A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AA23A9D1CF40D5A009C98A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AA23A9F1CF40D5A009C98A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AA23AA21CF40D5A009C98A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AA23AA41CF40D5A009C98A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA23AA91CF40D5A009C98A8 /* InstantMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA23AAD1CF40D5A009C98A8 /* InstantMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstantMessageTests.m; sourceTree = "<group>"; };
+		0AA23AAF1CF40D5A009C98A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA23AB41CF40D5A009C98A8 /* InstantMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA23AB81CF40D5A009C98A8 /* InstantMessageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstantMessageUITests.m; sourceTree = "<group>"; };
+		0AA23ABA1CF40D5A009C98A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABA78742E563D15A7326606 /* Pods-InstantMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantMessage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstantMessage/Pods-InstantMessage.debug.xcconfig"; sourceTree = "<group>"; };
+		E0A93C4A6E0986E0F898DFBF /* libPods-InstantMessage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstantMessage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AA23A8D1CF40D5A009C98A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F5DCC90CDC24A8098DDEFB /* libPods-InstantMessage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA23AA61CF40D5A009C98A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA23AB11CF40D5A009C98A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA23A871CF40D5A009C98A8 = {
+			isa = PBXGroup;
+			children = (
+				0AA23A921CF40D5A009C98A8 /* InstantMessage */,
+				0AA23AAC1CF40D5A009C98A8 /* InstantMessageTests */,
+				0AA23AB71CF40D5A009C98A8 /* InstantMessageUITests */,
+				0AA23A911CF40D5A009C98A8 /* Products */,
+				7BC55B26BEDF9FD15ACC6A7A /* Pods */,
+				859B00C9F8C6B2554D381474 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0AA23A911CF40D5A009C98A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AA23A901CF40D5A009C98A8 /* InstantMessage.app */,
+				0AA23AA91CF40D5A009C98A8 /* InstantMessageTests.xctest */,
+				0AA23AB41CF40D5A009C98A8 /* InstantMessageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AA23A921CF40D5A009C98A8 /* InstantMessage */ = {
+			isa = PBXGroup;
+			children = (
+				0AA23A961CF40D5A009C98A8 /* AppDelegate.h */,
+				0AA23A971CF40D5A009C98A8 /* AppDelegate.m */,
+				0AA23A991CF40D5A009C98A8 /* ViewController.h */,
+				0AA23A9A1CF40D5A009C98A8 /* ViewController.m */,
+				0AA23A9C1CF40D5A009C98A8 /* Main.storyboard */,
+				0AA23A9F1CF40D5A009C98A8 /* Assets.xcassets */,
+				0AA23AA11CF40D5A009C98A8 /* LaunchScreen.storyboard */,
+				0AA23AA41CF40D5A009C98A8 /* Info.plist */,
+				0AA23A931CF40D5A009C98A8 /* Supporting Files */,
+			);
+			path = InstantMessage;
+			sourceTree = "<group>";
+		};
+		0AA23A931CF40D5A009C98A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AA23A941CF40D5A009C98A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AA23AAC1CF40D5A009C98A8 /* InstantMessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AA23AAD1CF40D5A009C98A8 /* InstantMessageTests.m */,
+				0AA23AAF1CF40D5A009C98A8 /* Info.plist */,
+			);
+			path = InstantMessageTests;
+			sourceTree = "<group>";
+		};
+		0AA23AB71CF40D5A009C98A8 /* InstantMessageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AA23AB81CF40D5A009C98A8 /* InstantMessageUITests.m */,
+				0AA23ABA1CF40D5A009C98A8 /* Info.plist */,
+			);
+			path = InstantMessageUITests;
+			sourceTree = "<group>";
+		};
+		7BC55B26BEDF9FD15ACC6A7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ABA78742E563D15A7326606 /* Pods-InstantMessage.debug.xcconfig */,
+				00C3372B798D1C6D53EA6F07 /* Pods-InstantMessage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		859B00C9F8C6B2554D381474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0A93C4A6E0986E0F898DFBF /* libPods-InstantMessage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AA23A8F1CF40D5A009C98A8 /* InstantMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA23ABD1CF40D5A009C98A8 /* Build configuration list for PBXNativeTarget "InstantMessage" */;
+			buildPhases = (
+				302EB039A22E5980FAA49546 /* Check Pods Manifest.lock */,
+				0AA23A8C1CF40D5A009C98A8 /* Sources */,
+				0AA23A8D1CF40D5A009C98A8 /* Frameworks */,
+				0AA23A8E1CF40D5A009C98A8 /* Resources */,
+				B0CDC8810E593A8D693738FC /* Embed Pods Frameworks */,
+				060CE5C763D866F3F06125B7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstantMessage;
+			productName = InstantMessage;
+			productReference = 0AA23A901CF40D5A009C98A8 /* InstantMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AA23AA81CF40D5A009C98A8 /* InstantMessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA23AC01CF40D5A009C98A8 /* Build configuration list for PBXNativeTarget "InstantMessageTests" */;
+			buildPhases = (
+				0AA23AA51CF40D5A009C98A8 /* Sources */,
+				0AA23AA61CF40D5A009C98A8 /* Frameworks */,
+				0AA23AA71CF40D5A009C98A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA23AAB1CF40D5A009C98A8 /* PBXTargetDependency */,
+			);
+			name = InstantMessageTests;
+			productName = InstantMessageTests;
+			productReference = 0AA23AA91CF40D5A009C98A8 /* InstantMessageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AA23AB31CF40D5A009C98A8 /* InstantMessageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA23AC31CF40D5A009C98A8 /* Build configuration list for PBXNativeTarget "InstantMessageUITests" */;
+			buildPhases = (
+				0AA23AB01CF40D5A009C98A8 /* Sources */,
+				0AA23AB11CF40D5A009C98A8 /* Frameworks */,
+				0AA23AB21CF40D5A009C98A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA23AB61CF40D5A009C98A8 /* PBXTargetDependency */,
+			);
+			name = InstantMessageUITests;
+			productName = InstantMessageUITests;
+			productReference = 0AA23AB41CF40D5A009C98A8 /* InstantMessageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AA23A881CF40D5A009C98A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "郭吉刚";
+				TargetAttributes = {
+					0AA23A8F1CF40D5A009C98A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					0AA23AA81CF40D5A009C98A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0AA23A8F1CF40D5A009C98A8;
+					};
+					0AA23AB31CF40D5A009C98A8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0AA23A8F1CF40D5A009C98A8;
+					};
+				};
+			};
+			buildConfigurationList = 0AA23A8B1CF40D5A009C98A8 /* Build configuration list for PBXProject "InstantMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AA23A871CF40D5A009C98A8;
+			productRefGroup = 0AA23A911CF40D5A009C98A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AA23A8F1CF40D5A009C98A8 /* InstantMessage */,
+				0AA23AA81CF40D5A009C98A8 /* InstantMessageTests */,
+				0AA23AB31CF40D5A009C98A8 /* InstantMessageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AA23A8E1CF40D5A009C98A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA23AA31CF40D5A009C98A8 /* LaunchScreen.storyboard in Resources */,
+				0AA23AA01CF40D5A009C98A8 /* Assets.xcassets in Resources */,
+				0AA23A9E1CF40D5A009C98A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA23AA71CF40D5A009C98A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA23AB21CF40D5A009C98A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060CE5C763D866F3F06125B7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstantMessage/Pods-InstantMessage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		302EB039A22E5980FAA49546 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0CDC8810E593A8D693738FC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstantMessage/Pods-InstantMessage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AA23A8C1CF40D5A009C98A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA23A9B1CF40D5A009C98A8 /* ViewController.m in Sources */,
+				0AA23A981CF40D5A009C98A8 /* AppDelegate.m in Sources */,
+				0AA23A951CF40D5A009C98A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA23AA51CF40D5A009C98A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA23AAE1CF40D5A009C98A8 /* InstantMessageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA23AB01CF40D5A009C98A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA23AB91CF40D5A009C98A8 /* InstantMessageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AA23AAB1CF40D5A009C98A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AA23A8F1CF40D5A009C98A8 /* InstantMessage */;
+			targetProxy = 0AA23AAA1CF40D5A009C98A8 /* PBXContainerItemProxy */;
+		};
+		0AA23AB61CF40D5A009C98A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AA23A8F1CF40D5A009C98A8 /* InstantMessage */;
+			targetProxy = 0AA23AB51CF40D5A009C98A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AA23A9C1CF40D5A009C98A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA23A9D1CF40D5A009C98A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AA23AA11CF40D5A009C98A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA23AA21CF40D5A009C98A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AA23ABB1CF40D5A009C98A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AA23ABC1CF40D5A009C98A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AA23ABE1CF40D5A009C98A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ABA78742E563D15A7326606 /* Pods-InstantMessage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstantMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcgames.cn.InstantMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AA23ABF1CF40D5A009C98A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C3372B798D1C6D53EA6F07 /* Pods-InstantMessage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstantMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcgames.cn.InstantMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AA23AC11CF40D5A009C98A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstantMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcgames.cn.InstantMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantMessage.app/InstantMessage";
+			};
+			name = Debug;
+		};
+		0AA23AC21CF40D5A009C98A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstantMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcgames.cn.InstantMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantMessage.app/InstantMessage";
+			};
+			name = Release;
+		};
+		0AA23AC41CF40D5A009C98A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstantMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcgames.cn.InstantMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstantMessage;
+			};
+			name = Debug;
+		};
+		0AA23AC51CF40D5A009C98A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstantMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcgames.cn.InstantMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InstantMessage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AA23A8B1CF40D5A009C98A8 /* Build configuration list for PBXProject "InstantMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA23ABB1CF40D5A009C98A8 /* Debug */,
+				0AA23ABC1CF40D5A009C98A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA23ABD1CF40D5A009C98A8 /* Build configuration list for PBXNativeTarget "InstantMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA23ABE1CF40D5A009C98A8 /* Debug */,
+				0AA23ABF1CF40D5A009C98A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA23AC01CF40D5A009C98A8 /* Build configuration list for PBXNativeTarget "InstantMessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA23AC11CF40D5A009C98A8 /* Debug */,
+				0AA23AC21CF40D5A009C98A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA23AC31CF40D5A009C98A8 /* Build configuration list for PBXNativeTarget "InstantMessageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA23AC41CF40D5A009C98A8 /* Debug */,
+				0AA23AC51CF40D5A009C98A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AA23A881CF40D5A009C98A8 /* Project object */;
+}
